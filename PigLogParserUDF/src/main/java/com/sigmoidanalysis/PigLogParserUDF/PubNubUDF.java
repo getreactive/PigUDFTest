@@ -24,7 +24,7 @@ public class PubNubUDF extends EvalFunc<Tuple> {
 
 	@Override
 	public Tuple exec(Tuple input) throws IOException {
-		// TODO Auto-generated method stub
+		
 		if (input == null || input.size() < 1 || input.isNull(0)) {
 			return null;
 		}
